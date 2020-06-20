@@ -1,0 +1,81 @@
+{
+    "data": {
+        "id": 500,
+        "rid": 0,
+        "username": "admin",
+        "mobile": "13999999999",
+        "email": "123999@qq.com",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE1MTI1NDQyOTksImV4cCI6MTUxMjYzMDY5OX0.eGrsrvwHm-tPsO9r_pxHIQ5i5L1kX9RX444uwnRGaIM"
+    },
+    "rights": [
+        {
+            "id": 125,
+            "authName": "用户管理",
+            "icon": "icon-user",
+            "children": [
+                {
+                    "id": 110,
+                    "authName": "用户列表",
+                    "path": "users",
+                    "rights": [
+                        "view",
+                        "edit",
+                        "add",
+                        "delete"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "authName": "角色管理",
+            "icon": "icon-tijikongjian",
+            "children": [
+                {
+                    "id": 111,
+                    "authName": "角色列表",
+                    "path": "roles",
+                    "rights": [
+                        "view",
+                        "edit",
+                        "add",
+                        "delete"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "authName": "商品管理",
+            "icon": "icon-shangpin",
+            "children": [
+                {
+                    "id": 104,
+                    "authName": "商品列表",
+                    "path": "goods",
+                    "rights": [
+                        "view",
+                        "edit",
+                        "add",
+                        "delete"
+                    ]
+                },
+                {
+                    "id": 121,
+                    "authName": "商品分类",
+                    "path": "categories",
+                    "rights": [
+                        "view",
+                        "edit",
+                        "add",
+                        "delete"
+                    ]
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}

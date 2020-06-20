@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": 204,
+      "roleName": "职员",
+      "roleDesc": "基层员工"
+    },
+    {
+      "id": 205,
+      "roleName": "经理",
+      "roleDesc": "中层员工"
+    },
+    {
+      "id": 206,
+      "roleName": "部门主管",
+      "roleDesc": "中层员工"
+    },
+    {
+      "id": 207,
+      "roleName": "CEO",
+      "roleDesc": "高管"
+    },
+    {
+      "id": 208,
+      "roleName": "超级管理员",
+      "roleDesc": "拥有所有权限"
+    }
+  ],
+  "meta": {
+    "msg": "获取角色列表成功",
+    "status": 200
+  }
+}

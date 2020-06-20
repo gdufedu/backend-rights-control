@@ -1,0 +1,55 @@
+{
+    "data": {
+        "id": 666,
+        "rid": 0,
+        "username": "zhangsan",
+        "mobile": "13812811228",
+        "email": "123@qq.com",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE1MTI1NDQyOTksImV4cCI6MTUxMjYzMDY5OX0.eGrsrvwHm-tPsO9r_pxHIQ5i5L1kX9RX444uwnRGaIM"
+    },
+    "rights": [
+        {
+            "id": 125,
+            "authName": "用户管理",
+            "icon": "icon-user",
+            "children": [
+                {
+                    "id": 110,
+                    "authName": "用户列表",
+                    "path": "users",
+                    "rights": [
+                        "view"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "authName": "商品管理",
+            "icon": "icon-shangpin",
+            "children": [
+                {
+                    "id": 104,
+                    "authName": "商品列表",
+                    "path": "goods",
+                    "rights": [
+                        "view",
+                        "add"
+                    ]
+                },
+                {
+                    "id": 121,
+                    "authName": "商品分类",
+                    "path": "categories",
+                    "rights": [
+                        "view"
+                    ]
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "msg": "登录成功",
+        "status": 200
+    }
+}

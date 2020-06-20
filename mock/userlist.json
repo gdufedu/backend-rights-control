@@ -1,0 +1,30 @@
+{
+    "data": {
+        "total": 5,
+        "pagenum": 1,
+        "users": [
+            {
+                "id": 500,
+                "role_name": "超级管理员",
+                "username": "admin",
+                "create_time": 1486720211,
+                "mobile": "13999999999",
+                "email": "123999@qq.com",
+                "mg_state": false
+            },
+            {
+                "id": 707,
+                "role_name": "经理",
+                "username": "zhangsan",
+                "create_time": 1585990244,
+                "mobile": "13812811228",
+                "email": "123@qq.com",
+                "mg_state": false
+            }
+        ]
+    },
+    "meta": {
+        "msg": "获取管理员列表成功",
+        "status": 200
+    }
+}
