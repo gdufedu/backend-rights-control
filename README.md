@@ -1,5 +1,6 @@
 # vue_shop
-
+admin
+123456
 ## Project setup
 ```
 npm install
